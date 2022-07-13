@@ -6,7 +6,7 @@
 #    By: yrabby <yrabby@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/15 15:29:13 by yoav              #+#    #+#              #
-#    Updated: 2022/07/13 18:47:25 by yrabby           ###   ########.fr        #
+#    Updated: 2022/07/13 18:57:25 by yrabby           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ LIBMLX = $(LIBMLX_PATH)/libmlx.a
 
 CC = gcc
 #  TODO
-CFLAGS = -c -I$(HED) -I$(LIBFT_PATH)
+CFLAGS = -c -I$(HED) -I$(LIBFT_PATH) -I$(LIBMLX_PATH)
 # CFLAGS = -Wall -Werror -Wextra -c -I$(HED) -Ilibft
 RM = rm -f
 
