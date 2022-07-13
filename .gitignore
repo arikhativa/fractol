@@ -1,0 +1,4 @@
+.vscode
+# *.o
+# libtft/*.o
+fractol
